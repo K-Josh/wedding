@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2), -3px -3px 10px rgba(255, 255, 255, 0.2);
+    background: #ffffff20;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    color: #FFA41B;
+}
+
+.bg_image {
+    background-image: url("./assets/pic2.jpeg");
+    background-repeat: no-repeat;
+}
